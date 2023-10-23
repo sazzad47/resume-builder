@@ -1,6 +1,7 @@
 import React from "react";
 import SwipeableViews from "react-swipeable-views";
 import Template1 from "../templates/template1";
+import Template2 from "../templates/template2";
 
 const images = [
   {
@@ -9,7 +10,7 @@ const images = [
   },
   {
     label: "Template 2",
-    template: <Template1 />,
+    template: <Template2 />,
   },
 ];
 
