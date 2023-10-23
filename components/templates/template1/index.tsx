@@ -150,20 +150,49 @@ const Template1 = () => {
             </div>
         </div>
 
-        {/* contact section starts here */}
-
+        {/* experience section starts here */}
+          
+          <div className='w-full flex items-center -mt-[0.3rem]'>
+            <div className='h-0 w-full border-t-[3px] border-gray-400 '></div>
+            <div className="h-0 w-0 border-t-[7px] border-t-transparent border-l-[14px] border-l-gray-400 border-b-[7px] border-b-transparent"></div>
+          </div>
+      
+      
         <div className='w-full flex flex-col items-start justify-center'>
-            <div className='w-full flex items-center -mt-[0.3rem]'>
 
-          <div className='h-0 w-full border-t-[3px] border-gray-400'></div>
-          <div className="h-0 w-0 border-t-[7px] border-t-transparent border-l-[14px] border-l-gray-400 border-b-[7px] border-b-transparent"></div>
+            <div className='w-full flex flex-col items-start'>
+            <h3 className='text-2xl uppercase font-heading font-bold'> Experience </h3>
+              <h5 className='text-lg uppercase font-heading font-semibold mt-5'> Package Designer </h5>
+              <h5 className='text-lg font-heading font-semibold mt-2'> Google </h5>
+              <p className='font-body'>
+              Conceptualized and designed innovative packaging solutions for Google products, ensuring brand consistency and market competitiveness.
+              Collaborated with cross-functional teams, including marketing, product development, and production, to understand project requirements and deliver design solutions that met business goals.
+              </p>
+            </div>
 
+            <div className='w-full flex flex-col items-start'>
+          
+              <h5 className='text-lg uppercase font-heading font-semibold mt-5'> Production Artis </h5>
+              <h5 className='text-lg font-heading font-semibold mt-2'> Apple </h5>
+              <p className='font-body'>
+              Conceptualized and designed innovative packaging solutions for Apple products, ensuring brand consistency and market competitiveness.
+              Collaborated with cross-functional teams, including marketing, product development, and production, to understand project requirements and deliver design solutions that met business goals.
+              </p>
+            </div>
+
+            <div className='w-full flex flex-col items-start'>
+           
+              <h5 className='text-lg uppercase font-heading font-semibold mt-5'> Art Director </h5>
+              <h5 className='text-lg font-heading font-semibold mt-2'> Amazon </h5>
+              <p className='font-body'>
+              Conceptualized and designed innovative packaging solutions for Amazon products, ensuring brand consistency and market competitiveness.
+              Collaborated with cross-functional teams, including marketing, product development, and production, to understand project requirements and deliver design solutions that met business goals.
+              </p>
             </div>
             
- 
         </div>
 
-         {/* contact section ends here */}
+         {/* experience section ends here */}
 
         
          {/* skills section ends here */}
