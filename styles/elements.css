@@ -116,3 +116,81 @@
 .btn-secondary:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
+
+.btn-download {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #17795E;
+  background-color: #209978;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+.btn-download, .button__icon, .button__text {
+  transition: all 0.3s;
+}
+
+.btn-download .button__text {
+  transform: translateX(22px);
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-download .button__text.loading {
+  transform: translateX(22px);
+  color: transparent;
+  font-weight: 600;
+}
+
+.btn-download .button__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: #17795E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-download .button__icon.loading {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 148px;
+  transform: translateX(0);
+  background-color: #17795E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-download .svg {
+  width: 20px;
+  fill: #fff;
+}
+
+.btn-download:hover {
+  background: #17795E;
+}
+
+.btn-download:hover .button__text {
+  color: transparent;
+}
+
+.btn-download:hover .button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.btn-download:active .button__icon {
+  background-color: #146c54;
+}
+
+.btn-download:active {
+  border: 1px solid #146c54;
+}
