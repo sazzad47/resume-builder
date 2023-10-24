@@ -69,38 +69,38 @@ const Template1 = () => {
 
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> Sketch </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> Figma </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> Adobe XD </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> InVision </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> Canva </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> AutoCAD </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
 
@@ -111,26 +111,26 @@ const Template1 = () => {
 
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> Video Editing </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> Animation </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> Motion Graphics </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
                 <div className='w-full flex items-center gap-2'>
                     <h3 className='flex-1 text-lg font-semibold'> 3D Modeling </h3>
-                    <div className="w-[50%] bg-gray-400 rounded-full h-full">
-                      <div className="bg-gray-700 h-full rounded-full" style={{width: "45%"}} ></div>
+                    <div className="w-[50%] bg-gray-400 rounded-full h-2">
+                      <div className="bg-gray-700 h-2 rounded-full" style={{width: "45%"}} ></div>
                     </div>
                 </div>
             </div>
